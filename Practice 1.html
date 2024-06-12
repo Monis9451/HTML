@@ -2,6 +2,17 @@
 <html lang = "en">
     <head>
         <title>This it my first simple HTML document!</title>
+        <style>
+            table , th , td 
+            {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            th , td 
+            {
+                padding: 10px;
+            }
+        </style>
     </head>
     <body>
         <p class = "foo">This is a paragraph which is change.<br> A line break. </P>
@@ -11,8 +22,44 @@
         <p>Here is some <b>bold</b> text.</p>
         <p>Here is some <i>emphasized</i> text.</p>
         <p>Here is some <mark>highlighted</mark> text.</p>
+        <p>Here is some <code>coded</code> text.</p>
+        <p>This is <b>bold text</b>.</p>
+        <p>This is <strong>strongly important text</strong>.</p>
         <a href = "https://github.com/Monis9451" title = "Search Engine">GitHub</a>
         <!--<p>Here is some commented text.</p>-->
         <p>Here is some non commented text.</p>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>Monis</td>
+                <td>18</td>
+                <td>Okara</td>
+            </tr>
+            <tr>
+                <td>Rohan</td>
+                <td>20</td>
+                <td>Faisalabad</td>
+            </tr>
+            <tr>
+                <td>Mehroz</td>
+                <td>222222222222</td>
+                <td>Lahore</td>
+            </tr>
+        </table>
+        <ol>
+            <li>Monis</li>
+            <li>Hussain</li>
+            <li>
+                Subjects
+                <ul>
+                    <li>DM</li>
+                    <li>Calculus</li>
+                </ul>
+            </li>
+        </ol>
     </body>
 </html>
