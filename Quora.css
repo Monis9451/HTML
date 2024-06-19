@@ -28,3 +28,8 @@ h1>button
 {
     background-color: burlywood;
 }
+h1>button:hover
+{
+    background-color: black;
+    color: burlywood;
+}
