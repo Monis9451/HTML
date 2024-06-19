@@ -1,0 +1,30 @@
+*
+{
+    font-family: Helvetica Bold;
+    text-align: center;
+}
+h1
+{
+    color: rgb(255, 0, 0);
+}
+#this_is_an_id
+{
+    color: black;
+    text-decoration: none;
+}
+.up
+{
+    background-color: aquamarine;
+}
+span button
+{
+    background-color: chartreuse;
+}
+input+input
+{
+    background-color: bisque;
+}
+h1>button
+{
+    background-color: burlywood;
+}
