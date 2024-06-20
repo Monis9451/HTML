@@ -1,0 +1,16 @@
+div
+{
+    height: 200px;
+    width: 500px;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 20px;
+}
+button
+{
+    border-radius: 0px 20px;
+}
+button:hover
+{
+    background-color: antiquewhite;
+}
