@@ -1,0 +1,26 @@
+.outer {
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px grey;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.disc
+{
+    text-align: center;
+}
+
+.outer:hover
+{
+    box-shadow: 10px 10px 8px black;
+}
