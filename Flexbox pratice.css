@@ -1,0 +1,60 @@
+h1
+{
+    text-align: center;
+}
+#outer
+{
+    height: 250px;
+    width: 80%;
+    background-color: azure;
+    border: 2px solid black;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+#V
+{
+    background-color: violet;
+    height: 50px;
+    width: 500px;
+}
+#I
+{
+    background-color: indigo;
+    height: 50px;
+    width: 500px;
+}
+#B
+{
+    background-color: blue;
+    height: 50px;
+    width: 500px;
+}
+#G
+{
+    background-color: green;
+    height: 50px;
+    width: 500px;
+}
+#Y
+{
+    background-color: yellow;
+    height: 50px;
+    width: 500px;
+}
+#O
+{
+    background-color: orange;
+    height: 50px;
+    width: 500px;
+}
+#R
+{
+    background-color: red;
+    height: 50px;
+    width: 500px;
+}
+div
+{
+    text-align: center;
+}
