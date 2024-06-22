@@ -1,0 +1,41 @@
+#face
+{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 200px;
+    background-color: yellow;
+}
+
+#eye1
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+#eye2
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 35px;
+    left: 125px;
+}
+#mouth
+{
+    height: 40px;
+    width: 90px;
+    background-color:lightcoral;
+    position: relative;
+    top: 70px;
+    left: 55px;
+    border-radius: 0 0 50px 50px;
+}
