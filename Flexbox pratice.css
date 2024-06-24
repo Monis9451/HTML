@@ -4,55 +4,60 @@ h1
 }
 #outer
 {
-    height: 250px;
+    height: 500px;
     width: 80%;
     background-color: azure;
     border: 2px solid black;
     margin: 10px auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: space-evenly;
 }
 #V
 {
     background-color: violet;
-    height: 50px;
-    width: 500px;
+    height: 100px;
+    width: 300px;
 }
 #I
 {
     background-color: indigo;
-    height: 50px;
-    width: 500px;
+    height: 100px;
+    width: 300px;
 }
 #B
 {
     background-color: blue;
-    height: 50px;
-    width: 500px;
+    height: 100px;
+    width: 400px;
 }
 #G
 {
     background-color: green;
-    height: 50px;
-    width: 500px;
+    height: 100px;
+    width: 300px;
 }
 #Y
 {
     background-color: yellow;
-    height: 50px;
-    width: 500px;
+    height: 100px;
+    width: 300px;
 }
 #O
 {
     background-color: orange;
-    height: 50px;
-    width: 500px;
+    height: 200px;
+    width: 300px;
+    font-size: 3em;
 }
 #R
 {
     background-color: red;
-    height: 50px;
-    width: 500px;
+    height: 100px;
+    width: 300px;
 }
 div
 {
