@@ -1,0 +1,179 @@
+#outer
+{
+    height: 160px;
+    width: 160px;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    margin: auto;
+    margin-top: 150px;
+}
+.inner
+{
+    height: 50px;
+    width: 50px;
+    /* border: 2px solid black; */
+}
+@keyframes color_animation_1 
+{
+  from
+  {
+    background-color: red;
+  }   
+  to
+  {
+    background-color: violet;
+  }
+}
+@keyframes color_animation_2
+{
+  from
+  {
+    background-color: green;
+  }   
+  to
+  {
+    background-color: blue;
+  }
+}
+@keyframes color_animation_3 
+{
+  from
+  {
+    background-color: aqua;
+  }   
+  to
+  {
+    background-color: darkmagenta;
+  }
+}
+@keyframes color_animation_4 
+{
+  from
+  {
+    background-color: yellow;
+  }   
+  to
+  {
+    background-color: orangered;
+  }
+}
+@keyframes color_animation_5 
+{
+  from
+  {
+    background-color: rgb(194, 17, 238);
+  }   
+  to
+  {
+    background-color: rgb(243, 15, 129);
+  }
+}
+@keyframes color_animation_6 
+{
+  from
+  {
+    background-color: rgb(248, 175, 17);
+  }   
+  to
+  {
+    background-color: indigo;
+  }
+}
+@keyframes color_animation_7 
+{
+  from
+  {
+    background-color: rgb(15, 240, 228);
+  }   
+  to
+  {
+    background-color: rgb(255, 0, 0);
+  }
+}
+@keyframes color_animation_8 
+{
+  from
+  {
+    background-color: rgb(25, 13, 204);
+  }   
+  to
+  {
+    background-color: rgb(241, 245, 10);
+  }
+}
+@keyframes color_animation_9 
+{
+  from
+  {
+    background-color: rgb(153, 0, 255);
+  }   
+  to
+  {
+    background-color: chartreuse;
+  }
+}
+@keyframes font_animation 
+{
+  from
+  {
+    height: 50px;
+    width: 50px;
+  }   
+  to
+  {
+    height: 10px;
+    width: 10px;
+  }
+}
+@keyframes shape_animation
+{
+  from
+  {
+    border-radius: 0%;
+  }   
+  to
+  {
+    border-radius: 50%;
+  }
+}
+#id1
+{
+    
+    animation: color_animation_1 3s ease 0s infinite alternate, font_animation 2s ease 1s infinite alternate, shape_animation 2s ease 1s infinite alternate;
+}
+#id2
+{
+    
+    animation: color_animation_2 3s ease 0s infinite alternate,font_animation 1s ease-in-out 2s infinite alternate,shape_animation 1s ease-in-out 2s infinite alternate;
+}
+#id3
+{
+    animation: color_animation_3 3s ease 0s infinite alternate;
+}
+#id4
+{
+    animation: color_animation_4 3s ease 0s infinite alternate;
+}
+#id5
+{
+    animation: color_animation_5 3s ease 0s infinite alternate;
+}
+#id6
+{
+    animation: color_animation_6 3s ease 0s infinite alternate,font_animation 1.5s ease 0s infinite alternate,shape_animation 1.5s ease 0s infinite alternate;
+}
+#id7
+{
+    animation: color_animation_7 3s ease 0s infinite alternate;
+}
+#id8
+{
+    animation: color_animation_8 3s ease 0s infinite alternate,font_animation 2.5s ease 0.5s infinite alternate,shape_animation 2.5s ease 0.5s infinite alternate;
+}
+#id9
+{
+    animation: color_animation_9 3s ease 0s infinite alternate;
+}
