@@ -1,0 +1,30 @@
+#outer
+{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px 10px;
+    padding: 10px;
+    place-items: center;
+    
+}
+.inner
+{
+    height: 50px;
+    width: 80px;
+    border: 2px solid black;
+    background-color: chartreuse;
+    text-align: center;
+}
+#fifteen
+{
+    grid-column: 3/5; 
+}
+#one
+{
+    grid-row: 1/3;
+}
